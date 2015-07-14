@@ -157,7 +157,7 @@ gulp.task('watch', function() {
 });
 
 // 启动预览服务，并监视 Dist 目录变化自动刷新浏览器
-gulp.task('serve', ['default'], function() {
+gulp.task('server', ['default'], function() {
   browserSync({
     notify: false,
     // Customize the BrowserSync console logging prefix
